@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'PyFetchDB',         # How you named your package folder (MyLib)
   packages = ['PyFetchDB'],   # Chose the same as "name"
-  version = '2.1.5',      # Start with a small number and increase it with every change you make
+  version = '2.1.6',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Small, easy to use, python database.',   # Give a short description about your library
   author = 'Mathieu Courcier-Flores',                   # Type in your name
   author_email = 'Mathieucourcierflores@gmail.com',      # Type in your E-Mail
   url = 'https://pyfetch.netlify.app/',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Werner-Zeigler/PyFetchDB/archive/refs/tags/v2.1.5.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Werner-Zeigler/PyFetchDB/archive/refs/tags/v2.1.6.tar.gz',    # I explain this later on
   keywords = ['Python', 'Easy', 'Database'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
       ],
