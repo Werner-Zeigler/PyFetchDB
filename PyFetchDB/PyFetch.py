@@ -2,7 +2,7 @@ import ast
 import os
 
 
-# ---VERSION 2.0---
+# ---VERSION 2.1---
 
 class database:
     def __init__(self, Apath):  # setting object path to path
@@ -34,16 +34,9 @@ class database:
     ##### ERRORS #####
 
     def count_lines(self):
-        has_cache = False
         with open(self.path, 'r') as file:
             lines = file.readlines()
-            if len(lines) < 0:
-                if "@cache<@" in lines[0]:
-                    has_cache = True
-        if has_cache:
-            return len(lines) - 1  # -1 to account for cache on the first line
-        elif not has_cache:
-            return len(lines)
+        return len(lines)
 
     def line_num_through_id(self, id):
         """returns the line number corresponding with the id"""
