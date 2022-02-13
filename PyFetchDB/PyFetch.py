@@ -2,7 +2,7 @@ import ast
 import os
 
 
-# ---VERSION 2.1---
+# ---VERSION 2.1.1---
 
 class database:
     def __init__(self, Apath):  # setting object path to path
